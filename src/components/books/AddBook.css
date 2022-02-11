@@ -1,0 +1,36 @@
+.addbook_container{
+    margin: 2em 0;
+    width: 100%;
+}
+.addbook_container .addbook_title{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+input,select{
+    width: 100%;
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    border:1px solid #ccc;
+    border-radius: 2px;
+}
+.addbook_container 
+input:focus,
+select:focus,
+input:hover,
+select:hover{
+    border:1px solid #ccc;
+    outline: none;
+}
+.btn-submit{
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 1em 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

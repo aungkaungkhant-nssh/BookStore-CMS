@@ -1,0 +1,64 @@
+.book{
+    display: flex;
+    justify-content: space-between;
+}
+.book .book_details .category{
+    font-weight: bold;
+    font-size: .8rem;
+}
+.book .book_details h2{
+   margin-top: .1em;
+   letter-spacing: .01rem;
+}
+.book .book_details .author{
+    font-size: .9rem;
+}
+.book .book_details .btn-group{
+    margin-top: 1.5em;
+}
+.book .book_details button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+}
+.book .book_details .comment{
+    padding-right: 1em;
+}
+.book .book_details .remove{
+    padding: 0 1rem;
+}
+.book .book_details .edit{
+    padding: 0 1rem;
+    border-right: 1px solid #fff;
+}
+.book_details{
+    flex: 1;
+}
+.book_chapter{
+    flex: 1;
+}
+.book_chapter .book_current{
+    color: #9e9e9e;
+    margin-bottom:.8em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.book_chapter .book_chapter_no{
+    margin-bottom: .8em;
+    color: #212121;
+}
+.book_chapter .progress{
+    border: none;
+    padding: .8em 2em;
+  
+}
+@media screen and (max-width:675px){
+    .book{
+        flex-direction: column;
+        
+    }
+    .book_chapter{
+        margin-top: 1em;
+    }
+}

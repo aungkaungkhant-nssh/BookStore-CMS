@@ -1,0 +1,23 @@
+.edit_book_container{
+   width: 90%;
+   max-width: 600px;
+   margin: 5em auto;
+}
+.edit_book_title{
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.edit_book_container .icon{
+    position: absolute;
+    top: 1.2em;
+    right: 2.5em;
+
+}
+.edit_book_container .icon i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.edit_book_container .icon i:hover{
+    color: #9e9e9e;
+}
